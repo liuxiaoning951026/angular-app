@@ -6,6 +6,7 @@ import { MyNewComponentComponent } from './my-new-component/my-new-component.com
 import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
+import { CenterComponent } from './center/center.component';
 
 @NgModule({
   declarations: [
@@ -13,6 +14,7 @@ import { AboutComponent } from './about/about.component';
     MyNewComponentComponent,
     HomeComponent,
     AboutComponent,
+    CenterComponent,
   ],
   imports: [
     BrowserModule,
